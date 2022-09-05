@@ -11,7 +11,7 @@ export const workHistoryData = [
                 points:[
                     `Built graph using Google Charts library and JavaScript for visualization of tasks metrics`,
                     'Created many generic components',
-                    "Write an app with React function component and Redux.",
+                    "Built an app with React function component and Redux.",
                 ],
                 summary:`Developed Xceed, the DrReddy’s main CRM web app. Reduced API call frequency by 6 times for similar tasks by
                 saving in center store and reduced loading time as well. Now the app is better in performance as well as easy to

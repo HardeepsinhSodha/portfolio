@@ -13,9 +13,9 @@ export default function Home() {
                 <h1 className='font-bold my-1 md:my-1 lg:my-2 text-white'>Hardeepsinh Sodha.</h1>
                 <h1 className='font-semibold my-1 md:my-1 lg:my-2 text-gray-400'>I build things for the web.</h1>
                 <p className='md:w-1/2'>
-                    I'm a software engineer specializing in builing and designing
-                    web app using Reactjs and Django. Currently, I'm focused on
-                    building scalable, customize, resnosive web app at
+                    I'm a software engineer specializing in building and designing
+                    web apps using Reactjs and Django. Currently, I'm focused on
+                    building scalable, customized, responsive web apps at
                     <a href='https://www.linkedin.com/company/indus-net-technologies/' className='text-primary'> INT.</a>
                 </p>
             </section>
@@ -26,15 +26,15 @@ export default function Home() {
                         <p>
                             Hi, I am Hardeepsinh Sodha, full Stack developer,from India.
                             I have done B.Tech from <a href='https://www.pdpu.ac.in/'>Pandit Deendayal Petroleum University</a>  with a degree in Mechanical Engineering in 2018.
-                            My interest in web development started back in 2016 when I had worked with my classmate and created a website for our college festivals using WordPress.
+                            My interest in web development started back in 2016 when I was actively involved with my teammate and created a website for our college festivals using WordPress.
                         </p>
                         <p>
-                            Fast-forward to today, I have all over 4 years of professional experience.
-                            As a developer I have solid experience with<span className='text-primary font-medium'> ReactJs, Django and Databse design. </span>
+                            Fast-forward to today, I have over 4 years of professional experience.
+                            As a developer I have solid experience with<span className='text-primary font-medium'> ReactJs, Django and Database design. </span>
                             I like to code things from scratch, and enjoy bringing ideas to life in the browser.
-                            My main focus these days is building scalable, customize, resnosive web app at
+                            My main focus these days is building scalable, customized, responsive web apps at
                             <a href='https://www.linkedin.com/company/indus-net-technologies/' className='text-primary'> INT </a>
-                            and learning new things like Fluter and Cloud services.
+                            and learning new things like Flutter and Cloud services.
                         </p>
                         <p className='block my-0 md:my-0 lg:my-0'>
                             Here are a few technologies I’ve been working with recently:
@@ -129,7 +129,7 @@ const MyTabDetails = ({ data, selectedTab }) => {
                         {project.title}
                     </Collapse.Title>
                     <Collapse.Content>
-                        <ol>
+                        <ol className='list-[gujarati]'>
                             {
                                 project.points.map((point, index) => (
                                     <li key={index}>{point}</li>
