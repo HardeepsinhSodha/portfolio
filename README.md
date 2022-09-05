@@ -1,3 +1,6 @@
+## Live website
+[hardeepsinhsodha.in](https://hardeepsinhsodha.netlify.app/)
+
 ## Goal
 
 Goal of this project is to create an own portfolio website. After going through many best portfolio websites, finally  Brittany Chiang’s portfolio is selected.
